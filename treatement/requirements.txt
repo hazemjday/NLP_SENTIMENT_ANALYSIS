@@ -1,0 +1,8 @@
+pymongo
+pandas
+torch
+transformers
+scikit-learn
+tqdm
+langdetect
+praw

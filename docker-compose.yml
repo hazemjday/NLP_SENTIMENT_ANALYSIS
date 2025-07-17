@@ -1,0 +1,13 @@
+services:
+
+  treatment:
+    build: ./treatement
+    container_name: treatement
+    restart: on-failure
+    volumes:
+      - ./treatement:/app
+    command: python script.py
+
+
+volumes:
+  mongo_data:
